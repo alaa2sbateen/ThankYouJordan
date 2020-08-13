@@ -52,9 +52,26 @@
       <!--Body-->
       <div class="modal-body mx-4">
         <!--Body-->
+        <form
+        method="POST"
+        action="https://phpmailer2.000webhostapp.com/sendEmails.php"
+        id="form"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <input
+          type="text"
+          name="subject"
+          value="Default Subject"
+          hidden
+        />
+        <input
+          type="text"
+          name="send-email"
+          value="info.thanksJO@arabnoor.net"
+          hidden
+        />
         <div class="md-form mb-3">
-           <!-- Form -->
-          <form method="POST" action="#">
 
             <label data-error="wrong" data-success="left" for="f-name">Full Name</label>
             <input type="text" id="f-name" class="form-control" required="" name="full-name">
