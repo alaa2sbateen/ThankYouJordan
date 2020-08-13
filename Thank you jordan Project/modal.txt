@@ -1,0 +1,40 @@
+<!-- Central Modal Medium Success -->
+					<div class="modal fade" id="centralModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+					  aria-hidden="true">
+					  <div class="modal-dialog modal-notify modal-success" role="document">
+					    <!--Content-->
+					    <div class="modal-content">
+					      <!--Header-->
+					      <div class="modal-header">
+					        <p class="heading lead" style="color: darkred;font-weight: bold;">Are you want to say <span style="font-weight: bolder;">"Thank you Jordan" </span>by Donate to this section ?</p>
+
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true" class="white-text">&times;</span>
+					        </button>
+					      </div>
+
+					      <!--Body-->
+					      <div class="modal-body">
+					        <div class="text-center">
+					          <i class="fas fa-check fa-4x mb-3 animated rotateIn" style="color:#206a5d"></i><br/>
+					         
+					        </div>
+					      </div>
+
+					      <!--Footer-->
+					      <div class="modal-footer justify-content-center">
+					        <a href="donate-info/index.html" type="button" class="btn btn-success">Donate now! <i class="far fa-gem ml-1 white-text"></i></a>
+					        <a type="button" class="btn btn-reg" data-dismiss="modal">No, thanks</a><br/>
+					        <hr style="width:50%; background-color: #3b6978">
+					        <a href="#" type="button" class="btn btn-contact">Contact us for more information <i class="fas fa-address-book"></i></a>
+					      </div>
+					    </div>
+					    <!--/.Content-->
+					  </div>
+					</div>
+					<!-- Central Modal Medium Success-->
+
+					<!-- Button trigger modal -->
+					<div class="text-center">
+					  <a href="" class="btn btn-primary" data-toggle="modal" data-target="#centralModalSuccess">Donate now<i class="far fa-eye ml-1"></i></a>
+					</div>
